@@ -70,11 +70,8 @@ class SpellCheckerTest {
         checker.addWord("cat");
         String suggestion = checker.getSuggestedWord("cat");
         assertEquals("cat", suggestion);
+	}
 
-     
-        suggestion = checker.getSuggestedWord("cat");
-        assertEquals("cat", suggestion);
-    }
 
 //9
     @Test
